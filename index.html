@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Interactive Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+    <div class="wrapper">
+      <ul class="steps">
+        <li class="is-active">Login</li>
+        <li>Información personal</li>
+        <li>Step 3</li>
+        <li>Step 4</li>
+        <li>Step 5</li>
+      </ul>
+      <form class="form-wrapper">
+        <fieldset class="section is-active">
+          <h3>Login</h3>
+          <input type="text" name="nombre" id="nombre" placeholder="nombre">
+          <input type="password" name="contraseña" id="password" placeholder="Password">
+          <div class="button">Siguiente</div>
+        </fieldset>
+        <fieldset class="section">
+          <h3>Registro de Usuario</h3>       
+            <p>Nombre Completo <input type="text" name="nombrecompleto"></p>
+            <p>Nacionalidad <input type="text" name="nacionalidad"></p>
+            <p>Teléfono <input type="text" name="teléfono"></p>
+            <p>Email   <input type="text" name="Email"></p>
+            <p>Usuario <input type="text" name="Usuario"></p>
+            <p>Contraseña <input type="password" name="Contraseña"></p>
+
+          <div class="button">Next</div>
+        </fieldset>
+        <fieldset class="section">
+          <h3>Choose a Password</h3>
+          <input type="password" name="password" id="password" placeholder="Password">
+          <input type="password" name="password2" id="password2" placeholder="Re-enter Password">
+          <input class="submit button" type="submit" value="Sign Up">
+        </fieldset>
+        <fieldset class="section">
+          <h3>Account Created!</h3>
+          <p>Your account has now been created.</p>
+          <div class="button">Reset Form</div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>
