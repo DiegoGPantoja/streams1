@@ -26,33 +26,97 @@
         </fieldset>
 
         <fieldset class="section">
-          <h3>Registro de Usuario</h3>       
+          <h2>Registro de Usuario</h2>       
             <p>Nombre Completo <input type="text" name="nombrecompleto"></p>
             <p>Nacionalidad <input type="text" name="nacionalidad"></p>
             <p>Teléfono <input type="text" name="teléfono"></p>
             <p>Email   <input type="text" name="Email"></p>
             <p>Usuario <input type="text" name="Usuario"></p>
             <p>Contraseña <input type="password" name="Contraseña"></p>
-          <div class="button">Next</div>
+          <div class="button">Siguiente</div>
         </fieldset>
 
         
         <fieldset class="section">
-            <h3>Registro de Usuario</h3>       
+            <h2>Datos de Empleado</h2>       
               <p>Nombre del empleado <input type="text" name="nombredelempleado"></p>
               <p>Sexo <input type="text" name="sexo"></p>
-              <p>Fecha de Nacimiento <input type="date" name="dechadenacimiento"></p>
-              <p>Email   <input type="text" name="Email"></p>
-              <p>Usuario <input type="text" name="Usuario"></p>
-              <p>Contraseña <input type="password" name="Contraseña"></p>
-            <div class="button">Next</div>
+              <p>Fecha de antiguedad <input type="date" name="deantiguedad"></p>
+              <p>Fecha de nacimiento <input type="date" name="denacimiento"></p>
+              <p>Estado Civil <input type="text" name="Civil"></p>
+              <p>Nacionalidad <input type="text" name="Nacionalidad"></p>
+              <h3>Datos de Nacimiento</h3>
+              <p>Fecha de antiguedad <input type="date" name="deantiguedad"></p>
+            <div class="button">Siguiente</div>
         </fieldset>
         
         <fieldset class="section">
-          <h3>Choose a Password</h3>
-          <input type="password" name="password" id="password" placeholder="Password">
-          <input type="password" name="password2" id="password2" placeholder="Re-enter Password">
-          <input class="submit button" type="submit" value="Sign Up">
+          <h3>Domicilio</h3>
+          <label for="domicilio">Domicilio Personal</label>
+          <input type="text" name="domicilio" id="domicilio" placeholder="Calle, N. exterior, N. Interior, Colonia, C.P.">
+
+          <select name="pais" id="pais">
+            <option value="paiss">Pais</option>
+            <option value="mx">Mexico</option>
+            <option value="usa">Estados Unidos</option>
+            <option value="Brasil">Brasil</option>
+            <option value="otro">Otro</option>
+          </select>
+
+          <select name="estado" id="estado">
+            <option value="Estado">Estado</option>
+            <option value="jalisco">Jalisco</option>
+            <option value="EDO">Edo de Mexico</option>
+            <option value="Mty">Nuevo Leon</option>
+            <option value="otro">Otro</option>
+          </select>
+
+          <select name="ciudad" id="ciudad">
+            <option value="ciudadd">Ciudad</option>
+            <option value="Gdl">Guadalajara</option>
+            <option value="CDMX">CDMX</option>
+            <option value="Mty">Monterrey</option>
+            <option value="otro">Otro</option>
+          </select>
+
+          <br>
+
+          <label for="fiscal">Domicilio Fiscal</label>
+          <input type="text" name="fiscal" id="fiscal" placeholder="Calle, N. exterior, N. Interior, Colonia, C.P.">
+
+          <select name="pais" id="pais">
+            <option value="paiss">Pais</option>
+            <option value="mx">Mexico</option>
+            <option value="usa">Estados Unidos</option>
+            <option value="Brasil">Brasil</option>
+            <option value="otro">Otro</option>
+          </select>
+
+          <select name="estado" id="estado">
+            <option value="Estado">Estado</option>
+            <option value="jalisco">Jalisco</option>
+            <option value="EDO">Edo de Mexico</option>
+            <option value="Mty">Nuevo Leon</option>
+            <option value="otro">Otro</option>
+          </select>
+
+          <select name="ciudad" id="ciudad">
+            <option value="ciudadd">Ciudad</option>
+            <option value="Gdl">Guadalajara</option>
+            <option value="CDMX">CDMX</option>
+            <option value="Mty">Monterrey</option>
+            <option value="otro">Otro</option>
+          </select>
+
+          <h3>Datos de Contacto</h3>
+          <h2>Telefonos</h2>
+
+          <label for="casa">Tel. Casa:</label>
+          <input type="text" id="casa" name="casa" placeholder="">
+
+
+
+          <div class="button">Siguiente</div>
         </fieldset>
         <fieldset class="section">
           <h3>Account Created!</h3>
